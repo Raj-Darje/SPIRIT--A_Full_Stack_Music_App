@@ -40,7 +40,7 @@ function App() {
               <Routes>
                 <Route
                   path="/"
-                  element={<h1>Hey bro i am route, WELCOME</h1>}
+                  element={<LoggedInHome />}
                 />
                 <Route path="/home" element={<LoggedInHome />} />
                 <Route path="/uploadSong" element={<UploadSong />} />
