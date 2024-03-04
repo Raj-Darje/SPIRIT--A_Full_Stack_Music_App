@@ -1,4 +1,4 @@
-import spotify_logo from "../assets/images/spotify_logo_white.svg";
+import spotify_logo from "../assets/images/spirit-airlines2866.jpg";
 import IconText from "../components/shared/IconText";
 import { Icon } from "@iconify/react";
 import TextWithHover from "../components/shared/TextwithHover";
@@ -75,7 +75,7 @@ const LoggedInContainer = ({ children, curActiveScreen }) => {
         <div className="h-full w-1/5 bg-black flex flex-col justify-between pb-10">
           <div>
             <div className="logoDiv p-6">
-              <img src={spotify_logo} alt="Spotify Logo" width={125} />
+              <img src={spotify_logo} alt="Spotify Logo" width={125} className="rounded-full" />
             </div>
             <div className="py-5">
               <IconText
